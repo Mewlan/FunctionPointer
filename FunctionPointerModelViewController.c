@@ -62,11 +62,11 @@ void numberInPutController(int *a, int *b)
 {
 	for (int i = 0; i < 2; ++i)
 	{
-		if (i)
+		if (!i)
 		{
-			scanf("%d", b);
-		} else {
 			scanf("%d", a);
+		} else {
+			scanf("%d", b);
 		}
 		
 	}
